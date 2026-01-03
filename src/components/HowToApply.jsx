@@ -20,10 +20,11 @@ const HowToApply = () => {
           <div className="step">
             <div className="step-number">2</div>
             <div className="step-content">
-              <h3>Upload je foto's</h3>
+              <h3>Upload je motivatievideo</h3>
               <p>
-                Upload een portretfoto (headshot) en een full body foto. Deze foto's helpen
-                het castingteam een beter beeld te krijgen van je uitstraling en voorkomen.
+                Maak een korte video (max. 30 seconden) waarin je motiveert waarom je geschikt bent voor de rol.
+                Op basis van je video wordt bepaald of je uitgenodigd wordt voor een auditie.
+                Maximale bestandsgrootte: 100MB.
               </p>
             </div>
           </div>
@@ -42,7 +43,7 @@ const HowToApply = () => {
           <div className="form-cta">
             <h3>Klaar om je aan te melden?</h3>
             <p className="form-intro">
-              Vul het online aanmeldingsformulier in en upload je foto's.
+              Vul het online aanmeldingsformulier in en upload je motivatievideo (max. 30 sec, 100MB).
               Het invullen duurt ongeveer 5-10 minuten.
             </p>
             <a
