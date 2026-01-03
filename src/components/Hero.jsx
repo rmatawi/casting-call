@@ -11,8 +11,7 @@ const Hero = () => {
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <div className="logo-placeholder">
-          {/* Replace this div with <img src="/path-to-logo.png" alt="Studio Logo" className="studio-logo" /> */}
-          <div className="logo-box">LOGO</div>
+          <img src="/logo.png" alt="Backlot Studio Logo" className="studio-logo" />
         </div>
         <h1 className="hero-title">Casting Call – Onder de Paramariboom</h1>
         <p className="hero-subtitle">Wij zoeken Surinaams acteertalent</p>

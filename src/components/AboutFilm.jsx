@@ -22,16 +22,14 @@ const AboutFilm = () => {
           <div className="film-details">
             <div className="detail-item">
               <div className="person-photo-placeholder">
-                {/* Replace with <img src="/johan-fretz.jpg" alt="Johan Fretz" className="person-photo" /> */}
-                <div className="person-photo-box">JF</div>
+                <img src="/fretz.jpg" alt="Johan Fretz" className="person-photo" />
               </div>
               <span className="detail-label">Gebaseerd op het boek van</span>
               <span className="detail-value">Johan Fretz</span>
             </div>
             <div className="detail-item">
               <div className="person-photo-placeholder">
-                {/* Replace with <img src="/safi-graauw.jpg" alt="Safi Graauw" className="person-photo" /> */}
-                <div className="person-photo-box">SG</div>
+                <img src="/safi.jpg" alt="Safi Graauw" className="person-photo" />
               </div>
               <span className="detail-label">Regie</span>
               <span className="detail-value">Safi Graauw</span>
