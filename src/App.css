@@ -18,6 +18,24 @@
   margin: 0;
 }
 
+.developer-contact {
+  margin-top: var(--spacing-sm) !important;
+  font-size: 0.8125rem !important;
+}
+
+.contact-link {
+  color: var(--color-gold);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+}
+
+.contact-link:hover {
+  color: var(--color-soft-gold);
+  border-bottom-color: var(--color-soft-gold);
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;

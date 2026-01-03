@@ -19,6 +19,21 @@ function App() {
       <footer className="footer">
         <div className="container">
           <p>&copy; 2026 The BackLot – Casting Call</p>
+          <p className="developer-contact">
+            Website ontwikkeld door{' '}
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                const user = 'rianmatawi';
+                const domain = 'gmail.com';
+                window.location.href = `mailto:${user}@${domain}`;
+              }}
+              className="contact-link"
+            >
+              Rian Matawi
+            </a>
+          </p>
         </div>
       </footer>
     </div>
