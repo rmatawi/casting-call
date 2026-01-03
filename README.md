@@ -101,30 +101,28 @@ For Safi Graauw:
 
 The photos will be displayed as circular images (80x80px) with a subtle border.
 
-## Integrating Google Forms
+## Updating the Google Form Link
 
-To integrate your Google Form:
+The application form is already integrated and links to: https://forms.gle/8nQrt7MHxjwFQvaH9
 
-1. Create your form in Google Forms
-2. Click "Send" and select the embed option (`<>`)
-3. Copy the iframe code
-4. Open `src/components/HowToApply.jsx`
-5. Replace the placeholder content in the `.form-placeholder` div with your iframe:
+To update the form link:
+
+1. Open `src/components/HowToApply.jsx`
+2. Find the `<a>` tag with `href="https://forms.gle/8nQrt7MHxjwFQvaH9"`
+3. Replace with your new Google Form URL
 
 ```jsx
-<div className="form-container">
-  <iframe
-    src="YOUR_GOOGLE_FORM_URL"
-    width="100%"
-    height="800"
-    frameBorder="0"
-    marginHeight="0"
-    marginWidth="0"
-  >
-    Laden…
-  </iframe>
-</div>
+<a
+  href="YOUR_GOOGLE_FORM_URL"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="form-button"
+>
+  Open aanmeldingsformulier
+</a>
 ```
+
+Note: The form opens in a new tab because Google Forms with file upload fields cannot be embedded.
 
 ## Project Structure
 

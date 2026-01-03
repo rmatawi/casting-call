@@ -20,11 +20,10 @@ const HowToApply = () => {
           <div className="step">
             <div className="step-number">2</div>
             <div className="step-content">
-              <h3>Upload je auditievideo</h3>
+              <h3>Upload je foto's</h3>
               <p>
-                Maak een korte video van ongeveer één minuut. Stel jezelf voor en laat zien
-                wie je bent. Geen professionele opname nodig – authenticiteit is belangrijker
-                dan perfectie.
+                Upload een portretfoto (headshot) en een full body foto. Deze foto's helpen
+                het castingteam een beter beeld te krijgen van je uitstraling en voorkomen.
               </p>
             </div>
           </div>
@@ -40,13 +39,23 @@ const HowToApply = () => {
           </div>
         </div>
         <div id="application-form" className="form-container">
-          <div className="form-placeholder">
-            <p className="form-note">
-              Het aanmeldingsformulier wordt hier ingevoegd via Google Forms of een ander formuliersysteem.
+          <div className="form-cta">
+            <h3>Klaar om je aan te melden?</h3>
+            <p className="form-intro">
+              Vul het online aanmeldingsformulier in en upload je foto's.
+              Het invullen duurt ongeveer 5-10 minuten.
             </p>
-            <div className="form-embed-note">
-              <code>&lt;iframe src="[Google Form URL]" /&gt;</code>
-            </div>
+            <a
+              href="https://forms.gle/8nQrt7MHxjwFQvaH9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="form-button"
+            >
+              Open aanmeldingsformulier
+            </a>
+            <p className="form-note">
+              Het formulier opent in een nieuw tabblad
+            </p>
           </div>
         </div>
       </div>
