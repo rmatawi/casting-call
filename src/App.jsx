@@ -18,7 +18,7 @@ function App() {
       <CallToAction />
       <footer className="footer">
         <div className="container">
-          <p>&copy; 2026 Onder de Paramariboom – Casting Call</p>
+          <p>&copy; 2026 The BackLot – Casting Call</p>
         </div>
       </footer>
     </div>
