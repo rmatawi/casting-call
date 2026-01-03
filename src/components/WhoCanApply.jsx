@@ -26,7 +26,7 @@ const WhoCanApply = () => {
                 man met kenmerken die doen denken aan mensen uit het binnenland of misschien wel Coronie. Het is ook
                 een trotse man. Zijn beroep zou bijvoorbeeld botomang kunnen zijn.
               </p>
-              <p className="shooting-days">Ongeveer 2-3 draaidagen</p>
+              <p className="shooting-days">Ongeveer 3 draaidagen</p>
             </div>
 
             <div className="role-card">
@@ -40,7 +40,7 @@ const WhoCanApply = () => {
                 leven die buiten de stereotypering van de Surinamer treedt. Oom Rudy is voor een 80 jarige man nog
                 goed ter been. En geniet in volle teugen nog van het leven.
               </p>
-              <p className="shooting-days">Ongeveer 2-3 draaidagen</p>
+              <p className="shooting-days">Ongeveer 4 draaidagen</p>
             </div>
 
             <div className="role-card">
@@ -54,15 +54,9 @@ const WhoCanApply = () => {
                 gaat vinden om een soft te halen. Hij is de man met een woning op Mon Plaisir, rent in de ochtend zijn
                 rondje en bemoeit zich verder niet teveel met wat er ECHT speelt in het land.
               </p>
-              <p className="shooting-days">Ongeveer 3-5 draaidagen</p>
+              <p className="shooting-days">Ongeveer 5 draaidagen</p>
             </div>
           </div>
-
-          <p className="additional-roles-note">
-            Naast bovenstaande rollen zijn er nog diverse andere rollen die ingevuld moeten worden.
-            Ook als je jezelf niet herkent in deze specifieke personages, maar wel interesse hebt om deel
-            uit te maken van deze productie, nodigen we je uit om je aan te melden.
-          </p>
         </div>
       </div>
     </section>

@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './components/Hero';
 import AboutFilm from './components/AboutFilm';
 import WhoCanApply from './components/WhoCanApply';
+import AdditionalRoles from './components/AdditionalRoles';
 import HowToApply from './components/HowToApply';
 import CallToAction from './components/CallToAction';
 import './App.css';
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <AboutFilm />
       <WhoCanApply />
+      <AdditionalRoles />
       <HowToApply />
       <CallToAction />
       <footer className="footer">
