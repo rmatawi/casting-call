@@ -8,8 +8,7 @@ const AboutFilm = () => {
         <h2 className="section-title">Over de film</h2>
         <div className="film-content">
           <div className="book-cover-placeholder">
-            {/* Replace this div with <img src="/book-cover.jpg" alt="Onder de Paramariboom Book Cover" className="book-cover-image" /> */}
-            <div className="book-cover-box">BOOK COVER</div>
+            <img src="/book.jpg" alt="Onder de Paramariboom Book Cover" className="book-cover-image" />
           </div>
           <p className="synopsis">
             Johannes Fretz (29) is als zoon van een zwarte moeder en een witte vader van dubbelbloed,
