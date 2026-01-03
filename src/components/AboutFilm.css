@@ -141,6 +141,46 @@
   box-shadow: 0 4px 15px rgba(45, 74, 62, 0.1);
 }
 
+.detail-item-dates {
+  background: linear-gradient(135deg, var(--color-gold) 0%, var(--color-earth-brown) 100%);
+  border: 2px solid var(--color-gold);
+  position: relative;
+  overflow: hidden;
+}
+
+.detail-item-dates::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.detail-item-dates .detail-label {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+}
+
+.detail-item-dates .detail-value {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.375rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.detail-item-dates:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(212, 165, 116, 0.4);
+}
+
 .detail-label {
   font-size: 0.8125rem;
   text-transform: uppercase;

@@ -33,7 +33,7 @@ const AboutFilm = () => {
               <span className="detail-label">Regie</span>
               <span className="detail-value">Safi Graauw</span>
             </div>
-            <div className="detail-item">
+            <div className="detail-item detail-item-dates">
               <span className="detail-label">Opnames</span>
               <span className="detail-value">Februari – Maart 2026</span>
             </div>
