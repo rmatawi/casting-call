@@ -17,11 +17,13 @@ const Hero = () => {
         <p className="hero-subtitle">Wij zoeken Surinaams acteertalent</p>
         <p className="hero-intro">
           Voor de verfilming van het boek van Johan Fretz zijn we op zoek naar authentiek
-          Surinaams acteertalent. Heb jij wat het scherm zoekt? Laat het ons zien.
+          Surinaams acteertalent. Heb je interesse? Meld je dan aan!
         </p>
+        {/*
         <button className="cta-button" onClick={scrollToForm}>
           Meld je aan
         </button>
+        */}
       </div>
     </section>
   );
