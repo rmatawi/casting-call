@@ -68,6 +68,7 @@ const WhoCanApply = () => {
               <p className="shooting-days">Ongeveer 5 draaidagen</p>
             </div>
             
+            {/*
             <div className="additional-role-card">
               <div className="role-header">
                 <h4>Enilda</h4>
@@ -80,6 +81,7 @@ const WhoCanApply = () => {
               </p>
               <p className="shooting-days">Ongeveer 7 draaidagen</p>
             </div>
+            */}
 
             <div className="additional-role-card">
               <div className="role-header">
