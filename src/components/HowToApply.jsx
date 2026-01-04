@@ -41,6 +41,7 @@ const HowToApply = () => {
             </div>
           </div>
         </div>
+        {/*
         <div id="application-form" className="form-container">
           <div className="form-cta">
             <h3>Klaar om je aan te melden?</h3>
@@ -61,6 +62,7 @@ const HowToApply = () => {
             </p>
           </div>
         </div>
+        */}
       </div>
     </section>
   );

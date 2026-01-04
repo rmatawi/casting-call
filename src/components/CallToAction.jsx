@@ -1,9 +1,11 @@
-import React from 'react';
-import './CallToAction.css';
+import React from "react";
+import "./CallToAction.css";
 
 const CallToAction = () => {
   const scrollToForm = () => {
-    document.getElementById('application-form')?.scrollIntoView({ behavior: 'smooth' });
+    document
+      .getElementById("application-form")
+      ?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -12,17 +14,23 @@ const CallToAction = () => {
         <div className="cta-content">
           <h2 className="cta-title">Klaar om je aan te melden?</h2>
           <p className="cta-text">
-            Dit is jouw kans om deel uit te maken van een bijzonder verhaal.
-            We kijken ernaar uit je te ontmoeten.
+            Vul het online aanmeldingsformulier in en upload je motivatievideo
+            (max. 30 sec, 100MB). Het invullen duurt ongeveer 5-10 minuten.
           </p>
-          <button className="cta-button" onClick={scrollToForm}>
-            Meld je nu aan
-          </button>
+
+          <a
+            href="https://forms.gle/8nQrt7MHxjwFQvaH9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="form-button"
+          >
+            Meld je aan!
+          </a>
           <div className="privacy-note">
             <p>
-              Jouw gegevens worden vertrouwelijk behandeld en uitsluitend gebruikt voor deze
-              casting. Het selectieproces kan enkele weken duren. We nemen contact op met
-              geselecteerde kandidaten.
+              Jouw gegevens worden vertrouwelijk behandeld en uitsluitend
+              gebruikt voor deze casting. Het selectieproces kan enkele weken
+              duren. We nemen contact op met geselecteerde kandidaten.
             </p>
           </div>
         </div>
