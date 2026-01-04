@@ -1,5 +1,5 @@
-import React from 'react';
-import './HowToApply.css';
+import React from "react";
+import "./HowToApply.css";
 
 const HowToApply = () => {
   return (
@@ -12,8 +12,8 @@ const HowToApply = () => {
             <div className="step-content">
               <h3>Vul het formulier in</h3>
               <p>
-                Vertel ons wie je bent. We vragen naar je basisgegevens, achtergrond en
-                waarom je wilt deelnemen aan deze film.
+                Vertel ons wie je bent. We vragen naar je basisgegevens,
+                achtergrond en waarom je wilt deelnemen aan deze film.
               </p>
             </div>
           </div>
@@ -22,9 +22,10 @@ const HowToApply = () => {
             <div className="step-content">
               <h3>Upload je motivatievideo</h3>
               <p>
-                Maak een korte video (max. 30 seconden) waarin je motiveert waarom je geschikt bent voor de rol.
-                Op basis van je video wordt bepaald of je uitgenodigd wordt voor een auditie.
-                Maximale bestandsgrootte: 100MB.
+                Maak een korte video (max. 30 seconden) waarin je motiveert
+                waarom je geschikt bent voor de rol. Op basis van je video wordt
+                bepaald of je uitgenodigd wordt voor een auditie. Maximale
+                bestandsgrootte: 100MB.
               </p>
             </div>
           </div>
@@ -33,8 +34,9 @@ const HowToApply = () => {
             <div className="step-content">
               <h3>Verstuur het formulier</h3>
               <p>
-                Controleer je gegevens en stuur het formulier in. Je ontvangt een bevestiging
-                per e-mail. Het castingteam beoordeelt alle inzendingen.
+                Controleer je gegevens en stuur het formulier in. Je ontvangt
+                een bevestiging per e-mail. Het castingteam beoordeelt alle
+                inzendingen. <b>De deadline is 14 jan</b>
               </p>
             </div>
           </div>
@@ -43,8 +45,8 @@ const HowToApply = () => {
           <div className="form-cta">
             <h3>Klaar om je aan te melden?</h3>
             <p className="form-intro">
-              Vul het online aanmeldingsformulier in en upload je motivatievideo (max. 30 sec, 100MB).
-              Het invullen duurt ongeveer 5-10 minuten.
+              Vul het online aanmeldingsformulier in en upload je motivatievideo
+              (max. 30 sec, 100MB). Het invullen duurt ongeveer 5-10 minuten.
             </p>
             <a
               href="https://forms.gle/8nQrt7MHxjwFQvaH9"
