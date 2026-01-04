@@ -15,7 +15,7 @@ function App() {
       <WhoCanApply />
       {/* <AdditionalRoles /> */}
       <HowToApply />
-      <CallToAction />
+      {/* <CallToAction /> */}
       <footer className="footer">
         <div className="container">
           <p>&copy; 2026 The Back Lot – Casting Call</p>
