@@ -31,7 +31,7 @@ const HowToApply = () => {
           <div className="step">
             <div className="step-number">3</div>
             <div className="step-content">
-              <h3>Verstuur voor de deadline</h3>
+              <h3>Verstuur het formulier</h3>
               <p>
                 Controleer je gegevens en stuur het formulier in. Je ontvangt een bevestiging
                 per e-mail. Het castingteam beoordeelt alle inzendingen.
@@ -52,7 +52,7 @@ const HowToApply = () => {
               rel="noopener noreferrer"
               className="form-button"
             >
-              Open aanmeldingsformulier
+              Meld je aan!
             </a>
             <p className="form-note">
               Het formulier opent in een nieuw tabblad

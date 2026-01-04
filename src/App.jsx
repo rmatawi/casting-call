@@ -13,12 +13,12 @@ function App() {
       <Hero />
       <AboutFilm />
       <WhoCanApply />
-      <AdditionalRoles />
+      {/* <AdditionalRoles /> */}
       <HowToApply />
       <CallToAction />
       <footer className="footer">
         <div className="container">
-          <p>&copy; 2026 The BackLot – Casting Call</p>
+          <p>&copy; 2026 The Back Lot – Casting Call</p>
           <p className="developer-contact">
             Website ontwikkeld door{' '}
             <a
