@@ -98,12 +98,36 @@ const WhoCanApply = () => {
 
             <div className="additional-role-card">
               <div className="role-header">
+                <h4>Mennoniet</h4>
+                <span className="age-badge">Volwassen</span>
+              </div>
+              <p className="role-description">
+                Een Mennoniet personage voor deze productie.
+              </p>
+              <p className="shooting-days">Ongeveer 2 draaidagen</p>
+            </div>
+
+            <div className="additional-role-card">
+              <div className="role-header">
                 <h4>Douanier</h4>
                 <span className="age-badge">Volwassen</span>
               </div>
               <p className="role-description">
                 Mag een wat gezette, dikkere man zijn. Die zweet achter zijn
                 stoel met een ventilator op hem gericht.
+              </p>
+              <p className="shooting-days">Ongeveer 2 draaidagen</p>
+            </div>
+
+            <div className="additional-role-card">
+              <div className="role-header">
+                <h4>Kok</h4>
+                <span className="age-badge">Volwassen</span>
+              </div>
+              <p className="role-description">
+                Dit zou nog mogelijk kunnen met een van de koks uit het hotel
+                zelf. Het is een simpele tekst. Laten we hier een aantal koks
+                van het hotel zelf voor zien en spreken.
               </p>
               <p className="shooting-days">Ongeveer 2 draaidagen</p>
             </div>
@@ -123,12 +147,36 @@ const WhoCanApply = () => {
 
             <div className="additional-role-card">
               <div className="role-header">
+                <h4>Radio Host</h4>
+                <span className="age-badge">Volwassen</span>
+              </div>
+              <p className="role-description">
+                Lijkt me leuk om hier met een daadwerkelijk bekende radio host
+                te werken. Hij stelt Johannes enkel vragen. Dit komt heel dicht
+                bij zijn daadwerkelijke werk.
+              </p>
+              <p className="shooting-days">Ongeveer 1 draaidag</p>
+            </div>
+
+            <div className="additional-role-card">
+              <div className="role-header">
                 <h4>Piloot</h4>
                 <span className="age-badge">Jong volwassen</span>
               </div>
               <p className="role-description">
                 Mag een dubbelbloed piloot zijn. Een jongen die altijd ervan
                 heeft gedroomd te vliegen op zijn thuisland.
+              </p>
+              <p className="shooting-days">Ongeveer 1 draaidag</p>
+            </div>
+
+            <div className="additional-role-card">
+              <div className="role-header">
+                <h4>Campagne Vrouw (stem)</h4>
+                <span className="age-badge">Volwassen</span>
+              </div>
+              <p className="role-description">
+                Mooie campagne stem, komt niet in beeld alleen de stem.
               </p>
               <p className="shooting-days">Ongeveer 1 draaidag</p>
             </div>
